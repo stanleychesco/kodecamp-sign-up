@@ -1,0 +1,101 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  }
+.img-section{
+  width: 40%;
+  height: 100vh;
+  background:linear-gradient(115deg,  rgba(0, 0, 0, 0.58), rgba(0, 0, 0, 0.58)),url(file:///C:/Users/User/Desktop/IT/kodecamp%20sign%20up/img/pexels-andres-ayrton-6578392.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.header{
+  font-family: 'Playfair Display';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 69px;
+color:#086DB8 ;
+top :59px;
+}
+.form-section{
+  width: 60%;
+  height: 100vh;
+  padding:40px;
+  
+}
+.inner-form-box{
+  /*border: 1px solid black;*/
+}
+.page-header{
+  display: flex;
+}
+.logo-section{
+  display: flex;
+  justify-content: flex-end;
+}
+.form-row input[type="text"],input[type="email"],input[type="password"],select{
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid black;
+  background: #FFFFFF;
+box-sizing: border-box;
+border-radius: 5px;
+outline: none;
+background: #fff;
+}
+.form-row{
+  display:flex ;
+  justify-content: space-between;
+}
+.form-row .input-box{
+width:45%;
+}
+.about input[type="text"]{
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+.creat button[type="submit"]{
+background:#3E53C4;
+color: #fff;
+border: 1px solid #086DB8;
+margin: 10px;
+border-radius: 10px 0px 10px 0px;
+    padding: 6px;
+    text-align: center;
+    width: 35%;
+    font-size: 15px;
+    float: right;
+}
+.img-section .img-header{
+  color: white;
+  position: absolute;
+  top: 30px;
+font-family: Playfair Display;
+font-size: 30px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: left;
+}
+.img-h2{
+  color: white;
+  bottom: 30px;
+  position: absolute;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: left;
+}
+.img-page{
+    color: white;
+      bottom: 10px;
+      position: absolute;
+}
